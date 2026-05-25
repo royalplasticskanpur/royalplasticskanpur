@@ -361,7 +361,18 @@ Chat on WhatsApp
     </footer>
 
     <script src="script.js"></script>
+<footer>
+  ...
+</footer>
 
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/sw.js");
+}
+</script>
+
+</body>
+</html>
 </body>
 
 </html>
