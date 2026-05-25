@@ -402,3 +402,28 @@ footer{
     font-size:30px;
   }
 }
+.contact-form{
+  max-width:700px;
+  margin:30px auto;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:16px;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  font-family:inherit;
+}
+
+.contact-form textarea{
+  resize:vertical;
+}
+
+.contact-form button{
+  width:100%;
+}
