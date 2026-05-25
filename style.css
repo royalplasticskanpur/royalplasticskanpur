@@ -427,3 +427,51 @@ footer{
 .contact-form button{
   width:100%;
 }
+.solutions-section{
+  background:#f8fbff;
+}
+
+.solutions-banner{
+  background:linear-gradient(135deg,rgba(0,61,122,.95),rgba(45,110,62,.88)), url("images/hero.png");
+  background-size:cover;
+  background-position:center;
+  border-radius:18px;
+  padding:60px;
+  color:#fff;
+  box-shadow:0 12px 35px rgba(0,0,0,.15);
+}
+
+.solutions-content{
+  max-width:850px;
+}
+
+.solutions-content h3{
+  font-size:36px;
+  margin-bottom:14px;
+}
+
+.solution-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin:24px 0;
+}
+
+.solution-tags span{
+  background:rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.35);
+  padding:10px 14px;
+  border-radius:999px;
+  font-weight:700;
+}
+
+@media(max-width:900px){
+  .solutions-banner{
+    padding:28px;
+    border-radius:14px;
+  }
+
+  .solutions-content h3{
+    font-size:26px;
+  }
+}
