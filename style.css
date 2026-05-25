@@ -433,66 +433,80 @@ footer{
 .solutions-section{
   background:#f7fbff;
 }
+.solutions-section{
+  background:#f7fbff;
+}
 
 .solutions-banner{
-  background:
-    linear-gradient(135deg,rgba(0,61,122,.94),rgba(0,61,122,.82)),
-    url("images/hero.png");
-  background-size:cover;
-  background-position:center;
+  background:#ffffff;
+  border:1px solid #dbe5f1;
   border-radius:22px;
-  padding:70px 64px;
-  color:#fff;
-  box-shadow:0 20px 50px rgba(0,61,122,.22);
-  position:relative;
-  overflow:hidden;
+  padding:50px 56px;
+  color:#2C2C2C;
+  box-shadow:0 18px 45px rgba(0,61,122,.12);
 }
 
 .solutions-content{
-  max-width:920px;
+  max-width:960px;
+  margin:auto;
+  text-align:center;
 }
 
 .solutions-content h3{
   font-family:"Montserrat",sans-serif;
-  font-size:38px;
+  font-size:36px;
   line-height:1.2;
+  color:#003D7A;
   margin-bottom:14px;
 }
 
 .solutions-content p{
   font-size:17px;
   font-weight:700;
-  color:#f2f7ff;
-  margin-bottom:26px;
+  color:#2C2C2C;
+  margin-bottom:28px;
 }
 
 .solution-tags{
   display:grid;
   grid-template-columns:repeat(3,1fr);
   gap:14px;
-  margin:28px 0 34px;
-  max-width:760px;
+  margin:28px auto 34px;
+  max-width:820px;
 }
 
 .solution-tags span{
-  background:rgba(255,255,255,.16);
-  border:1px solid rgba(255,255,255,.35);
-  backdrop-filter:blur(8px);
-  padding:14px 18px;
+  background:#f5f8fc;
+  border:1px solid #dbe5f1;
+  color:#003D7A;
+  padding:15px 18px;
   border-radius:14px;
   font-weight:800;
   text-align:center;
-  box-shadow:0 8px 22px rgba(0,0,0,.12);
+  box-shadow:0 6px 16px rgba(0,61,122,.08);
 }
 
-.solutions-banner .btn{
-  width:auto;
+.gallery-buttons{
+  display:flex;
+  justify-content:center;
+  gap:16px;
+  flex-wrap:wrap;
+  margin-top:24px;
+}
+
+.gallery-buttons .btn{
   min-width:220px;
+}
+
+.gallery-buttons .btn-secondary{
+  color:#003D7A;
+  border:2px solid #003D7A;
+  background:#ffffff;
 }
 
 @media(max-width:900px){
   .solutions-banner{
-    padding:32px 22px;
+    padding:28px 20px;
     border-radius:16px;
   }
 
@@ -511,25 +525,8 @@ footer{
 
   .solution-tags span{
     text-align:left;
-    padding:13px 15px;
   }
 
-  .solutions-banner .btn{
-    width:100%;
-  }
-}
-.gallery-buttons{
-  display:flex;
-  gap:16px;
-  flex-wrap:wrap;
-  margin-top:20px;
-}
-
-.gallery-buttons .btn{
-  min-width:220px;
-}
-
-@media(max-width:900px){
   .gallery-buttons{
     flex-direction:column;
   }
