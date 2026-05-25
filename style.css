@@ -56,7 +56,8 @@ img{
 }
 
 .logo-section img{
-  height:60px;
+    height:72px;
+    width:auto;
 }
 
 .nav-links{
