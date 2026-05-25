@@ -1,10 +1,14 @@
 fetch("data/products.json")
   .then(response => response.json())
   .then(products => {
-    const container = document.getElementById("products");
+    const container = document.getElementById("products-list");
+
+    if (!container) return;
+
+    container.innerHTML = "";
 
     products.forEach(product => {
-      const card = document.createElement("div");
+      const card = document.createElement("article");
       card.className = "product-card";
 
       card.innerHTML = `
@@ -17,7 +21,4 @@ fetch("data/products.json")
 
       container.appendChild(card);
     });
-  })
-  .catch(error => {
-    console.error("Error loading products:", error);
   });
