@@ -12,7 +12,10 @@ fetch("data/products.json")
       card.className = "product-card";
 
       card.innerHTML = `
-        <img src="${product.image}" alt="${product.name}">
+        <button class="product-image-button" onclick="openImage('${product.image}', '${product.name}')">
+          <img src="${product.image}" alt="${product.name}">
+        </button>
+
         <div class="product-card-content">
           <h3>${product.name}</h3>
           <p>${product.description}</p>
@@ -23,3 +26,21 @@ fetch("data/products.json")
     });
   })
   .catch(error => console.error("Error loading products:", error));
+
+function openImage(src, alt) {
+  const overlay = document.createElement("div");
+  overlay.className = "image-lightbox";
+
+  overlay.innerHTML = `
+    <button class="lightbox-close" onclick="this.parentElement.remove()">×</button>
+    <img src="${src}" alt="${alt}">
+  `;
+
+  overlay.addEventListener("click", function(event) {
+    if (event.target === overlay) {
+      overlay.remove();
+    }
+  });
+
+  document.body.appendChild(overlay);
+}
