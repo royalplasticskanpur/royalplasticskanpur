@@ -1,7 +1,32 @@
 [
   {
-    "name": "Complete Range of Plastic Containers",
-    "image": "images/products/product-range.jpg",
-    "description": "Manufacturing high quality HDPE containers for industrial, chemical, pharmaceutical, lubricant, agrochemical and FMCG applications."
+    "name": "5 Ltr Plastic Bucket",
+    "image": "images/products/bucket-5ltr.jpg",
+    "description": "Heavy-duty plastic bucket for calcium, veterinary and industrial applications."
+  },
+  {
+    "name": "35 Ltr Drum",
+    "image": "images/products/drum-35ltr.jpg",
+    "description": "Industrial HDPE drum designed for chemical and industrial storage."
+  },
+  {
+    "name": "50 Ltr Drum",
+    "image": "images/products/drum-50ltr.jpg",
+    "description": "Strong and durable container suitable for bulk liquid storage."
+  },
+  {
+    "name": "Edible Oil Container",
+    "image": "images/products/edible-oil-container.jpg",
+    "description": "Food-grade packaging solution for edible oils and liquid products."
+  },
+  {
+    "name": "5 Ltr Jerry Can",
+    "image": "images/products/jerrycan-5ltr.jpg",
+    "description": "Leak-resistant HDPE jerry can for chemicals, cleaners and industrial liquids."
+  },
+  {
+    "name": "Long Neck Bottle",
+    "image": "images/products/long-neck-bottle.jpg",
+    "description": "Suitable for agrochemical, pharmaceutical and specialty liquid products."
   }
 ]
