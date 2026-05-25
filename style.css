@@ -518,3 +518,23 @@ footer{
     width:100%;
   }
 }
+.gallery-buttons{
+  display:flex;
+  gap:16px;
+  flex-wrap:wrap;
+  margin-top:20px;
+}
+
+.gallery-buttons .btn{
+  min-width:220px;
+}
+
+@media(max-width:900px){
+  .gallery-buttons{
+    flex-direction:column;
+  }
+
+  .gallery-buttons .btn{
+    width:100%;
+  }
+}
