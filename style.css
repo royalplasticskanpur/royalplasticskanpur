@@ -621,3 +621,8 @@ footer{
 .footer-bottom a:hover{
   text-decoration:underline;
 }
+.footer-social{
+    margin-top:20px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,.15);
+}
